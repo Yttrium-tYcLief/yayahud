@@ -45,6 +45,12 @@
 		"command" "questlog"
 		"tooltip" "CONTRACTS"
 	}
+	"WatchStreamButton"
+	{
+		"label" "l"
+		"command" "watch_stream"
+		"tooltip" "STREAMS"
+	}
 	"ToggleScoreboard"
 	{
 		"label" "."

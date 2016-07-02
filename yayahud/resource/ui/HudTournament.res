@@ -11,13 +11,14 @@
 		"tall"					"480"
 
 		"team1_player_base_offset_x"		"-75"
-		"team1_player_base_y"				"0"
+		"team1_player_base_y"				"68"
 		"team1_player_delta_x"				"-47"
 		"team1_player_delta_y"				"0"
 		"team2_player_base_offset_x"		"25"
 		"team2_player_base_y"				"0"
-		"team2_player_delta_x"				"47"
+		"team2_player_delta_x"				"56"
 		"team2_player_delta_y"				"0"
+		"teams_player_delta_x_comp"			"56"
 		
 		"playerpanels_kv"
 		{
@@ -41,7 +42,7 @@
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"fillcolor"		"60 60 60 255"
-				"visible"			"1"
+				"visible"			"0"
 				"enabled"			"1"
 			
 			}
@@ -80,6 +81,7 @@
 					"wide"				"48"
 					"textAlignment"		"center"
 					"font"				"PlayerPanelPlayerName"
+					"fgcolor"			"White"
 				}
 
 				if_readymode
@@ -89,6 +91,7 @@
 					"wide"				"48"
 					"textAlignment"		"center"
 					"font"				"PlayerPanelPlayerName"
+					"fgcolor"			"White"
 				}
 			}
 			
@@ -338,44 +341,28 @@
 				"tall"		"35"
 			}
 		}
-		
-		if_mvm
-		{
-			"xpos"					"c-250"
-			"ypos"					"10"
-			"wide"					"500"
-			"tall"					"480"
+	}
+	"HudTournamentBG"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"HudTournamentBG"
+		"xpos"			"99999"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../HUD/tournament_panel_brown"
+		"proportionaltoparent"	"1"
 
-			"team1_player_base_y"			"66"
- 			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
-		}
+		"src_corner_height"	"23"				// pixels inside the image
+		"src_corner_width"	"23"
 		
-		if_competitive
-		{
-			"xpos"					"c-250"
-			"ypos"					"10"
-			"wide"					"500"
-			"tall"					"480"
-
-			"team1_player_base_y"			"66"
- 			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
-+			"team2_player_base_offset_x"	"5"
-		}
-		
-		if_readymode
-		{
-			"xpos"					"c-250"
-			"ypos"					"10"
-			"wide"					"500"
-			"tall"					"480"
-
-			"team1_player_base_y"			"66"
- 			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
-+			"team2_player_base_offset_x"	"5"
-		}			
+		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"		
 	}
     "BlueTourBG"
 	{
@@ -670,7 +657,9 @@
 
 		if_readymode
 		{
-			"visible"		"0"
+			"visible"		"1"
+			"xpos"			"c-140"
+			"ypos"			"40"
 		}
 	}
     "ReadyUpLabel"
@@ -739,8 +728,8 @@
 		{
 			"font"			"ChatFont"
             "textAlignment"		"center"
-			"xpos"			"218"
-			"ypos"			"100"
+			"xpos"			"c-35"
+			"ypos"			"102"
 			"wide"			"200"
 			"tall"			"20"
 			"zpos"			"3"
@@ -751,8 +740,8 @@
 		{
 			"font"			"ChatFont"
             "textAlignment"		"center"
-			"xpos"			"218"
-			"ypos"			"100"
+			"xpos"			"c-35"
+			"ypos"			"102"
 			"wide"			"200"
 			"tall"			"20"
 			"zpos"			"3"
@@ -763,8 +752,8 @@
 		{
 			"font"			"ChatFont"
             "textAlignment"		"center"
-			"xpos"			"218"
-			"ypos"			"100"
+			"xpos"			"c-35"
+			"ypos"			"102"
 			"wide"			"200"
 			"tall"			"20"
 			"zpos"			"3"
@@ -818,14 +807,14 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
 		"font"			"Medium12Shadow"
-		"xpos"			"238"
-		"ypos"			"114"
+		"xpos"			"c-16"
+		"ypos"			"r40"
 		"wide"			"26"
 		"tall"			"25"
 		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
 		"fgcolor"		"White"

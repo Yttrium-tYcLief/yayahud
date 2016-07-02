@@ -9,7 +9,27 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-
+		
+		"BlueScoreBG"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"BlueScoreBG"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
+		
+		"RedScoreBG"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"RedScoreBG"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
+		
 		"BlueLabelBG"
 		{
 			"ControlName"		"ImagePanel"
@@ -59,6 +79,25 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
+		"BlueLeaderAvatar"
+		{
+			"ControlName"			"CAvatarImagePanel"
+			"fieldName"				"BlueLeaderAvatar"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
+		
+		"BlueLeaderAvatarBG"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"BlueLeaderAvatarBG"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
 		"RedLabelBG"
 		{
 			"ControlName"		"ImagePanel"
@@ -107,7 +146,35 @@
 			"fgcolor"		"White"
 			"visible"		"1"
 			"enabled"		"1"
-		}							
+		}
+		"RedLeaderAvatar"
+		{
+			"ControlName"			"CAvatarImagePanel"
+			"fieldName"				"RedLeaderAvatar"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}
+		
+		"RedLeaderAvatarBG"
+		{
+			"ControlName"			"EditablePanel"
+			"fieldName"				"RedLeaderAvatarBG"
+			"wide"					"0"
+			"tall"					"0"
+			"visible"				"0"
+			"enabled"				"0"
+		}		
+	}
+	"WinPanelBGBorder"
+	{
+		"ControlName"				"EditablePanel"
+		"fieldName"					"WinPanelBGBorder"
+		"wide"						"0"
+		"tall"						"0"
+		"visible"					"0"
+		"enabled"					"0"
 	}
 	"WinPanelBG"
 	{
