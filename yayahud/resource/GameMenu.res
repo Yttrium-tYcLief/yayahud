@@ -1,9 +1,9 @@
 "GameMenu" [$WIN32]
 {
-	"QuickplayButton"
+	"FindAGameButton"
 	{
 		"label" "PLAY" 
-		"command" "quickplay"
+		"command" "toggle_play_menu"
 		"OnlyAtMenu" "1"
 	}
 	"PlayPVEButton"

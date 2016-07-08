@@ -3,7 +3,7 @@
 	
 	"HudKothTimeStatus"
 	{
-		if_comp
+		if_match
 		{
 			"zpos"		"5"
 		}
@@ -21,7 +21,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		
-		if_comp
+		if_match
 		{
 			"xpos"			"23"
 		}
@@ -42,7 +42,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 			
-			if_comp
+			if_match
 			{
 				"font"		"MediumNumbers12"
 				"ypos"		"8"
@@ -63,7 +63,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		
-		if_comp
+		if_match
 		{
 			"xpos"			"60"
 		}
@@ -84,7 +84,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 			
-			if_comp
+			if_match
 			{
 				"font"		"MediumNumbers12"
 				"ypos"		"8"
@@ -106,7 +106,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}
@@ -124,7 +124,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}

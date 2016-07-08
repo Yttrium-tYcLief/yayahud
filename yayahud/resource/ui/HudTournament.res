@@ -731,7 +731,7 @@
 			"xpos"			"c-35"
 			"ypos"			"102"
 			"wide"			"200"
-			"tall"			"20"
+			"tall"			"12"
 			"zpos"			"3"
 			"visible"			"1"
 		}
@@ -743,7 +743,7 @@
 			"xpos"			"c-35"
 			"ypos"			"102"
 			"wide"			"200"
-			"tall"			"20"
+			"tall"			"12"
 			"zpos"			"3"
 			"visible"			"1"
 		}
@@ -755,7 +755,7 @@
 			"xpos"			"c-35"
 			"ypos"			"102"
 			"wide"			"200"
-			"tall"			"20"
+			"tall"			"12"
 			"zpos"			"3"
 			"visible"			"1"
 		}
