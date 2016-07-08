@@ -3,19 +3,20 @@
 	"FindAGameButton"
 	{
 		"label" "PLAY" 
-		"command" "toggle_play_menu"
+		"command" "play_casual"
 		"OnlyAtMenu" "1"
 	}
 	"PlayPVEButton"
 	{
 		"label" "MVM" 
-		"command" "playpve"
+		"command" "play_mvm"
 		"OnlyAtMenu" "1"
 	}
 	"CompetitiveButton"
 	{
 		"label" "COMP"
-		"command" "ladder_ui_show"
+		"command" "play_competitive"
+		"OnlyAtMenu" "1"
 	}
 	"ReplaysButton"
 	{
