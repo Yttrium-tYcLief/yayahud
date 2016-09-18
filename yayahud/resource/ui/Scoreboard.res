@@ -567,7 +567,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerNameLabel"
 		"font"			"ScoreboardMedium"
-		"labelText"		"%playername%"
+		"labelText"		"Rick Flame"
 		"textAlignment"		"west"
 		"xpos"			"115"
 		"xpos_lodef"	"105"
@@ -742,7 +742,7 @@
 				"tall"			"32"
 				"visible"		"1"
 				"enabled"		"1"
-				"labelText"		"%playername%"
+				"labelText"		"Rick Flame"
 				"textAlignment"	"east"
 				"font"			"Heavy18"
 			}
@@ -814,7 +814,7 @@
 				"tall"			"32"
 				"visible"		"1"
 				"enabled"		"1"
-				"labelText"		"%playername%"
+				"labelText"		"Rick Flame"
 				"textAlignment"	"west"
 				"font"			"Heavy18"
 			}

@@ -60,7 +60,7 @@
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
-				"labelText"		"%playername%"
+				"labelText"		"Rick Flame"
 				"textAlignment"	"north-west"
 				"fgcolor"		"60 60 60 255"
 					
