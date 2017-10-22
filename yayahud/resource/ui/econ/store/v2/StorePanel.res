@@ -81,6 +81,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BackgroundFooter2"
 		"xpos"			"0"
+		"xpos"			"0"
 		"ypos"			"420"
 		"zpos"			"1"
 		"wide"			"f0"
@@ -118,7 +119,8 @@
 		"tabxindent"	"80"
 		"tabxdelta"		"10"
 		"tabwidth"		"240"
-		"tabheight"		"34"
+		"tabheight"		"20"
+		"yoffset"		"14"
 		"transition_time" "0"
 		
 		"HeaderLine"
