@@ -37,7 +37,6 @@
 		"xpos"			"10"
 		"ypos"			"34"
 		"wide"			"70"
-		"tall"			"12"
 		"fgcolor"		"White"
 	}
 	
@@ -51,7 +50,6 @@
 		"xpos"			"63"
 		"ypos"			"34"
 		"wide"			"30"
-		"tall"			"12"
 		"fgcolor"		"Green"
 	}
 	
@@ -65,7 +63,6 @@
 		"xpos"			"10"
 		"ypos"			"51"
 		"wide"			"70"
-		"tall"			"12"
 		"fgcolor"		"White"
 	}
 	
@@ -79,7 +76,6 @@
 		"xpos"			"63"
 		"ypos"			"51"
 		"wide"			"30"
-		"tall"			"12"
 		"fgcolor"		"Red"
 	}
 	
@@ -93,7 +89,6 @@
 		"xpos"			"10"
 		"ypos"			"68"
 		"wide"			"70"
-		"tall"			"12"
 		"fgcolor"		"White"
 	}
 	
@@ -107,7 +102,6 @@
 		"xpos"			"63"
 		"ypos"			"68"
 		"wide"			"30"
-		"tall"			"12"
 		"fgcolor"		"Green"
 	}
 		

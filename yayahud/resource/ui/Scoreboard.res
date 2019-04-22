@@ -10,19 +10,17 @@
 		"tall"				"480"
 		"visible"			"1"
 		"enabled"			"1"
-		"medal_width"		"15"
-		"avatar_width"		"56"        // 42 for lower res
-		"spacer"		"5"
-		"name_width"		"118"
-		"name_width_short"	"85"
-		"status_width"		"15"
-		"nemesis_width"		"14"
+		"tabPosition"		"0"
+		"medal_width"		"12"
+		"avatar_width"		"55"
+		"spacer"			"2"
+		"name_width"		"85"
+		"nemesis_width"		"15"
 		"class_width"		"15"
-		"score_width"		"24"
-		"ping_width"		"21"
-		"stats_width"		"30"
-		"killstreak_width"	"20"
-		"killstreak_image_width" "20"
+		"score_width"		"20"
+		"ping_width"		"20"
+		"killstreak_width"	"12"
+		"killstreak_image_width" "12"
 	}
     
     "ServerTimeLeft" 
@@ -74,7 +72,7 @@
         "labelText"     "MANN VS MACHINE"
         "textAlignment" "west"
         "xpos"          "c-292" 
-        "ypos"          "c70" 
+        "ypos"          "c20" 
         "zpos"          "15"
         "wide"          "287"
         "tall"          "17"
@@ -134,9 +132,16 @@
         "fgcolor"       "White"
 
         if_mvm
-        {
-            "visible" "1"
-        }
+		{
+			"font"			"NoveMedium16"
+			"textAlignment" "center"
+			"xpos"			"c-100"
+			"ypos"			"r45"
+			"zpos"          "15"
+			"wide"			"200"
+			"tall"			"18"
+			"fgcolor"		"White"
+		}
     }	
     "Spectators"
 	{
@@ -193,9 +198,9 @@
 		{
             "fillcolor"		"DarkGray"
 			"xpos"			"c-295"
-			"ypos"			"c87"
+			"ypos"			"c37"
 			"wide"			"590"
-			"tall"			"169"
+			"tall"			"200"
 		}
 	}
     "InfoBG"
@@ -226,10 +231,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMBGTopLine"
-		"xpos"			"c-295"
-		"ypos"			"c85"
+		"xpos"			"c-288"
+		"ypos"			"c35"
 		"zpos"			"14"
-		"wide"			"410"
+		"wide"			"525"
 		"tall"			"2"
 		"fillcolor"		"Red"
 		"autoResize"	"0"
@@ -239,7 +244,7 @@
 
 		if_mvm
 		{
-			"visible"			"1"
+			"visible"	"1"
 		}
 	}
     "MvMBGTop"
@@ -247,7 +252,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMBGTop"
 		"xpos"			"c-295"
-		"ypos"			"c70"
+		"ypos"			"c20"
 		"zpos"			"9"
 		"wide"			"590"
 		"tall"			"17"

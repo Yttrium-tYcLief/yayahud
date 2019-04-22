@@ -7,6 +7,7 @@
 		"enabled"		"1"
 		"xpos"			"c-60"
 		"ypos"			"r123"
+		"zpos"			"10"
 		"wide"			"120"
 		"tall"			"20"
         "MeterFG"		"White"

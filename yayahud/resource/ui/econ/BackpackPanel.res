@@ -1,3 +1,5 @@
+#base "../../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/FullLoadoutPanel.res"
 {
 	"backpack_panel"
@@ -14,9 +16,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"GrayBG"
+		"infocus_bgcolor_override" "GrayBG"
+		"outoffocus_bgcolor_override" "GrayBG"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -401,8 +403,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c195"
-		"ypos"			"318"
+		"xpos"			"c-288"
+		"ypos"			"37"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -428,8 +430,8 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"c220"
-		"ypos"			"318"
+		"xpos"			"c-260"
+		"ypos"			"37"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"20"
@@ -444,8 +446,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c265"
-		"ypos"			"318"
+		"xpos"			"c-210"
+		"ypos"			"37"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"

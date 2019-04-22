@@ -5,12 +5,12 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"0"	//"r50"	[$WIN32]
-		"ypos"			"0"	//"18"	[$WIN32]
+		"xpos"			"r50"
+		"ypos"			"-1"
 		"wide"			"f0"
 		"tall"			"480"
 		"MeterFG"		"White"
-		"MeterBG"		"ya_HudBG"
+		"MeterBG"		"Gray"
 	}
 	
 	"ItemEffectMeterBG"
@@ -27,7 +27,7 @@
 		"image"			".replay/thumbnails/bg_black"
 		"scaleImage"	"1"	
 		"teambg_2"		"replay/thumbnails/bg_red"
-		"teambg_3"		"replay/thumbnails/bg_blue"		
+		"teambg_3"		"replay/thumbnails/bg_blue"
 	}
 	
 	"ItemEffectMeterLabel"
@@ -58,11 +58,8 @@
 		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"40"
-		"wide_minmode"			"50"
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -77,8 +74,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"r50"	//"0"
-		"ypos"					"1"	//"r40"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"46"
 		"tall"					"20"	
@@ -91,25 +88,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"MediumNumbers20"
-	}
-	"ItemEffectMeterCountShadow"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"r49"	//"0"
-		"ypos"					"2"	//"r40"
-		"zpos"					"2"
-		"wide"					"46"
-		"tall"					"20"	
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"%progresscount%"
-		"textAlignment"			"east"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"MediumNumbers20"
-		"fgcolor"				"HudShadow"
+		"fgcolor"				"White"
 	}
 }

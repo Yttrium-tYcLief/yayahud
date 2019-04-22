@@ -11,8 +11,10 @@
 		"tall"				"67"
 		"visible"			"1"
 		"enabled"			"1"
+		
 		"verbose"			"1"
 	}
+	
 	
 	"PopFileLabel"
 	{
@@ -25,105 +27,7 @@
 		"ypos"			"r11"
 		"wide"			"293"
 		"tall"			"11"
-		"fgcolor"		"Black"
-	}
-
-	"MvMNameLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MvMNameLabel"
-		"font"			"NoveMedium10"
-		"labelText"		"#TF_Scoreboard_Name"
-		"textAlignment"	"west"
-		"xpos"			"c-280"
-		"ypos"			"r11"
-		"wide"			"293"
-		"tall"			"11"
-		"fgcolor"		"Black"
-	}
-
-	"MvMTourLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MvMTourLabel"
-		"font"			"NoveMedium10"
-		"labelText"		"#TF_MvMScoreboard_Tour"
-		"textAlignment"	"east"
-		"xpos"			"c-410"
-		"ypos"			"r11"
-		"wide"			"293"
-		"tall"			"11"
-		"fgcolor"		"Black"
-	}
-
-	"MvMScoreLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MvMScoreLabel"
-		"font"			"NoveMedium10"
-		"labelText"		"#TF_Scoreboard_Score"
-		"textAlignment"	"east"
-		"xpos"			"c-367"
-		"ypos"			"r11"
-		"wide"			"293"
-		"tall"			"11"
-		"fgcolor"		"Black"
-	}
-
-	"MvMDamageLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MvMDamageLabel"
-		"font"			"NoveMedium10"
-		"labelText"		"#TF_MvMScoreboard_Damage"
-		"textAlignment"	"east"
-		"xpos"			"c-324"
-		"ypos"			"r11"
-		"wide"			"293"
-		"tall"			"11"
-		"fgcolor"		"Black"
-	}
-
-	"MvMTankLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MvMTankLabel"
-		"font"			"NoveMedium10"
-		"labelText"		"#TF_MvMScoreboard_Tank"
-		"textAlignment"	"east"
-		"xpos"			"c-281"
-		"ypos"			"r11"
-		"wide"			"293"
-		"tall"			"11"
-		"fgcolor"		"Black"
-	}
-
-	"MvMHealingLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MvMHealingLabel"
-		"font"			"NoveMedium10"
-		"labelText"		"#TF_MvMScoreboard_Healing"
-		"textAlignment"	"east"
-		"xpos"			"c-237"
-		"ypos"			"r11"
-		"wide"			"293"
-		"tall"			"11"
-		"fgcolor"		"Black"
-	}
-
-	"MvMMoneyLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"MvMMoneyLabel"
-		"font"			"NoveMedium10"
-		"labelText"		"#TF_MvMScoreboard_Money"
-		"textAlignment"	"east"
-		"xpos"			"c-195"
-		"ypos"			"r11"
-		"wide"			"293"
-		"tall"			"11"
-		"fgcolor"		"Black"
+		"fgcolor"		"White"
 	}
 
 	"DifficultyContainer"
@@ -131,10 +35,25 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
 		"xpos"			"0"
-		"ypos"			"60"
+		"ypos"			"10"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
+		
+		"DifficultyLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"DifficultyLabel"
+			"font"			"NoveLight10"
+			"labelText"		"#TF_MvM_Difficulty"
+			"textAlignment"	"West"
+			"xpos"          "4" 
+            "ypos"          "457" 
+            "zpos"          "2"
+            "wide"          "287"
+            "tall"          "12"
+			"fgcolor"		"Blank"
+		}
 		
 		"DifficultyValue"
 		{
@@ -159,10 +78,10 @@
 		"xpos"			"100"
 		"ypos"			"75"
 		"zpos"			"-1"
-		"wide"			"450"
-		"tall"			"150"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/tournament_panel_brown"
 		
 		"scaleImage"		"1"
@@ -178,18 +97,17 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"c-294"
-		"ypos"			"c75"
-		"wide"			"400"
-		"tall"			"155"
+		"xpos"			"c-288"
+		"ypos"			"c25"
+		"wide"			"525"
+		"tall"			"130"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"autoresize"	"3"
-		"linespacing"	"24"
+		"linespacing"	"20"
 		"textcolor"		"White"
-		"medal_width"	"0"
 	}
 	
 	"CreditStatsContainer"
@@ -198,7 +116,6 @@
 		"fieldName"		"CreditStatsContainer"
 		"xpos"			"0"
 		"ypos"			"190"
-		"zpos"			"30"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
@@ -242,8 +159,8 @@
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"PreviousWaveCreditInfoPanel"
-			"xpos"			"c108"
-			"ypos"			"r356"
+			"xpos"			"c-300"
+			"ypos"			"r282"
 			"tall"			"100"
 			"wide"			"200"
 			"visible"		"1"
@@ -264,8 +181,8 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"PreviousWaveCreditSpendPanel"
-			"xpos"			"c198"
-			"ypos"			"r356"
+			"xpos"			"c-210"
+			"ypos"			"r282"
 			"tall"			"100"
 			"wide"			"200"
 			"visible"		"1"
@@ -280,22 +197,6 @@
 			"tall"			"100"
 			"wide"			"200"
 			"visible"		"1"
-		}
-		
-		"RespecStatusLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"RespecStatusLabel"
-			"font"			"NotoBold12"
-			"labelText"		"%respecstatus%"
-			"textAlignment" "east"
-			"xpos"			"0"
-			"ypos"			"r197"
-			"zpos"			"30"
-			"wide"			"520"
-			"tall"			"13"
-			"textinsetx"	"3"
-			"fgcolor"		"NotoWhite"
 		}
 	}
 }

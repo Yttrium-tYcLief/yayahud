@@ -1,42 +1,85 @@
+#base "../../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/econ/QuestEditorPanel.res"
 {
-	"InspectionPanel"
+	"BGCustom"
 	{
-		"fieldName"		"InspectionPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"200"
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BGCustom"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"0"
-		"proportionaltoparent"	"1"
-		"bgcolor_override"	"30 25 25 245"
-
-		"BGImage"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"GrayBG"
+		
+		"consume_mode"
 		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"BGImage"
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
-			"zpos"			"1"
-			"wide"			"o1"
-			"tall"			"p0.75"
-			"visible"		"0"
-			"enabled"		"0"
-			"image"			"item_carousel_bg"
-			"scaleImage"	"1"
-			"proportionaltoparent" "1"
-	}	
+			"wide"		"0"
+		}
+	}
+	
+	"BGImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGImage"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"item_carousel_bg"
+		"scaleImage"	"1"
+		"proportionaltoparent" "1"
+	}
+
+	"ItemName"
+	{		
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"ItemName"
+		"xpos"			"cs-0.5"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"f0"
+		"tall"			"200"
+		"visible"		"1"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"2"
+		"paintborder"	"0"
+		"mouseinputenabled"	"0"
+		"proportionaltoparent"	"1"
+
+		"text_ypos"		"15"
+		"text_center"	"0"
+		"paint_icon_hide" "1"
+		"model_hide"	"1"
+		"text_forcesize"	"4"
+		"name_only"	"1"
+
+		"itemmodelpanel"
+		{
+			"use_item_rendertarget" "0"
+			"allow_rot"				"0"
+			"inventory_image_type"	"1"
+			"continued_velocity"	"1"
+		}
+	}
 
 	"ModelInspectionPanel"
 	{
 		"fieldName"		"ModelInspectionPanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
+		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"o1.5"
-		"tall"			"f0"
+		"tall"			"p0.8"
 		"visible"		"1"
+
 		"proportionaltoparent"	"1"
 
 		"force_use_model"		"1"
@@ -46,7 +89,7 @@
 		"max_pitch"				"30"
 		"use_pedestal"			"1"
 		"use_particle"			"1"
-		"fov"					"60"
+		"fov"					"75"
 
 		"model"
 		{
@@ -97,67 +140,12 @@
 		}
 	}
 
-	"CloseButton"
-	{
-		"ControlName"	"CExImageButton"
-		"fieldName"		"CloseButton"
-		"xpos"			"c270"
-		"ypos"			"c-160"
-		"zpos"			"100"
-		"wide"			"20"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labeltext"		""
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"0"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"close"
-		"proportionaltoparent" "1"
-		"actionsignallevel" "2"
-			
-		"paintbackground"	"0"
-
-		"pin_to_sibling"		"MainContainer"
-		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
-		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
-			
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "200 80 60 255"
-		"depressedFgColor_override" "46 43 42 255"
-			
-		"image_drawcolor"	"150 60 45 255"
-		"image_armedcolor"	"200 80 60 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"close_button"
-			"scaleImage"	"1"
-			"proportionaltoparent" "1"
-		}				
-	}	
-
 	"TeamNavPanel"
 	{
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"TeamNavPanel"
 		"xpos"				"cs-0.5"
-		"ypos"				"c120"
+		"ypos"				"p.7-16"
 		"zpos"				"100"
 		"wide"				"60"
 		"tall"				"25"
@@ -180,7 +168,7 @@
 			"tall"				"19"
 			"autoResize"		"0"
 			"pinCorner"			"2"
-			"visible"			"0"
+			"visible"			"1"
 			"enabled"			"1"
 			"tabPosition"		"0"
 			"labelText"			""
@@ -252,6 +240,7 @@
 			}
 		}
 	}
+
 	"PaintkitPreviewContainer"
 	{
 		"ControlName"	"EditablePanel"
@@ -261,7 +250,7 @@
 		"wide"			"300"
 		"tall"			"100"
 		"zpos"			"100"
-		"border"		"MainMenuBGBorder"
+		"border"		"GrayDialogBorder"
 		"mouseinputenabled"	"1"
 		"proportionaltoparent"	"1"
 

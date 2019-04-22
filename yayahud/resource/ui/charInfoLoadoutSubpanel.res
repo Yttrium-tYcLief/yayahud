@@ -1,3 +1,5 @@
+#base "../../resource/tools/ReloadSchemeButton.res"
+
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {
 	"CharInfoLoadoutSubPanel"
@@ -267,7 +269,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowBackpackButton"
-		"xpos"				"c-230"
+		"xpos"				"c-290"
 		"ypos"				"235"
 		"zpos"				"6"
 		"wide"				"60"
@@ -292,11 +294,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowBackpackLabel"
-		"font"			"Regular10"
+		"font"			"HudFontSmallestBold"
 		"labelText"		"#BackpackTitle"
 		"textAlignment"	"north"
-		"xpos"			"c-260"
-		"ypos"			"300"
+		"xpos"			"0"
+		"ypos"			"5"
 		"zpos"			"7"
 		"wide"			"120"
 		"tall"			"20"
@@ -304,13 +306,16 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		
+
+		"pin_to_sibling"               "ShowBackpackButton"
+		"pin_corner_to_sibling"        "4"          
+		"pin_to_sibling_corner"        "6"  
 	}
 	"ShowCraftingButton"
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowCraftingButton"
-		"xpos"				"c-95"
+		"xpos"				"c-160"
 		"ypos"				"235"
 		"zpos"				"6"
 		"wide"				"60"
@@ -335,11 +340,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowCraftingLabel"
-		"font"			"Regular10"
-		"labelText"		"CRAFTING"
+		"font"			"HudFontSmallestBold"
+		"labelText"		"#CraftingExplanation_Title"
 		"textAlignment"	"north"
-		"xpos"			"c-125"
-		"ypos"			"300"
+		"xpos"			"0"
+		"ypos"			"5"
 		"zpos"			"7"
 		"wide"			"120"
 		"tall"			"20"
@@ -347,12 +352,16 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		"pin_to_sibling"               "ShowCraftingButton"
+		"pin_corner_to_sibling"        "4"          
+		"pin_to_sibling_corner"        "6"  
 	}	
 	"ShowArmoryButton"
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowArmoryButton"
-		"xpos"				"c35"
+		"xpos"				"c-30"
 		"ypos"				"235"
 		"zpos"				"6"
 		"wide"				"60"
@@ -377,11 +386,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowArmoryLabel"
-		"font"			"Regular10"
-		"labelText"		"STORE"
+		"font"			"HudFontSmallestBold"
+		"labelText"		"#Armory"
 		"textAlignment"	"north"
-		"xpos"			"c5"
-		"ypos"			"300"
+		"xpos"			"0"
+		"ypos"			"5"
 		"zpos"			"7"
 		"wide"			"120"
 		"tall"			"20"
@@ -389,12 +398,16 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+
+		"pin_to_sibling"               "ShowArmoryButton"
+		"pin_corner_to_sibling"        "4"          
+		"pin_to_sibling_corner"        "6" 
 	}
 	"ShowTradeButton"
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowTradeButton"
-		"xpos"				"c160"
+		"xpos"				"c100"
 		"ypos"				"235"
 		"zpos"				"6"
 		"wide"				"60"
@@ -420,10 +433,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ShowTradeLabel"
 		"font"			"HudFontSmallestBold"
-		"labelText"		"TRADING"
+		"labelText"		"#TradingExplanation_Title"
 		"textAlignment"	"north"
-		"xpos"			"c130"
-		"ypos"			"300"
+		"xpos"			"0"
+		"ypos"			"5"
 		"zpos"			"7"
 		"wide"			"120"
 		"tall"			"20"
@@ -432,6 +445,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
+
+		"pin_to_sibling"               "ShowTradeButton"
+		"pin_corner_to_sibling"        "4"          
+		"pin_to_sibling_corner"        "6" 
 	}
 	"ShowPaintkitsButton"
 	{

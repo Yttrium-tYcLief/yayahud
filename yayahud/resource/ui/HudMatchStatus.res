@@ -210,7 +210,7 @@
  	{
  		"ControlName"		"EditablePanel"
  		"fieldName"			"BGFrame"
- 		"xpos"				"cs-0.5"
+ 		"xpos"				"9999"
  		"ypos"				"-5"
  		"zpos"				"0"
  		"wide"				"365"
@@ -219,12 +219,53 @@
 
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
-
-		if_match
-		{
-			"visible"		"1"
-		}
  	}
+	
+	"RankUpLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"RankUpLabel"
+		"font"			"HudFontMediumSmallBold"
+		"xpos"			"cs-0.5"
+		"ypos"			"80"
+		"wide"			"600"
+		"tall"			"60"
+		"zpos"			"5"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"centerwrap"	"1"
+		"alpha"			"0"
+		"labelText"		"%rank_possibility%"
+		"textAlignment"	"center"
+		"proportionaltoparent"	"1"
+		"fgcolor"		"TanLight"
+	}
+
+	"RankUpShadowLabel"
+	{	
+		"ControlName"	"CExLabel"
+		"fieldName"		"RankUpShadowLabel"
+		"font"			"HudFontMediumSmallBold"
+		"xpos"			"cs-0.5+2"
+		"ypos"			"80+2"
+		"wide"			"600"
+		"tall"			"60"
+		"zpos"			"5"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"wrap"			"0"
+		"centerwrap"	"1"
+		"alpha"			"0"
+		"labelText"		"%rank_possibility%"
+		"textAlignment"	"center"
+		"proportionaltoparent"	"1"
+		"fgcolor"		"Black"
+	}
 	
 	"ObjectiveStatusTimePanel"
 	{
@@ -247,12 +288,13 @@
 		
 		if_match
 		{
+			"ypos"				"8"
 			"zpos"				"4"
 		}
 		
 		"TimePanelValue"
         {
-            "ControlName"		"CExLabel"
+            "ControlName"	"CExLabel"
             "fieldName"		"TimePanelValue"
             "font"			"MediumNumbers20"
             "fgcolor"		"White"
@@ -263,13 +305,12 @@
             "tall"			"20"
             "visible"		"1"
             "enabled"		"1"
-            "textAlignment"		"center"
+            "textAlignment"	"center"
             "labelText"		"0:00"
 			
 			if_match
 			{
 				"font"		"MediumNumbers16"
-				"ypos"		"7"
 			}
 		}	
 	}
@@ -306,8 +347,8 @@
 			"tall"				"50"
 			"zpos"				"1"
 		
-			"color_portrait_bg_red"				"119 62 61 255"
-			"color_portrait_bg_blue"			"62 81 101 255"
+			"color_portrait_bg_red"				"Red"
+			"color_portrait_bg_blue"			"Blue"
 			"color_portrait_bg_red_dead"		"79 54 52 255"
 			"color_portrait_bg_blue_dead"		"44 49 51 255"
 			"color_bar_health_high"				"84 191 58 255"

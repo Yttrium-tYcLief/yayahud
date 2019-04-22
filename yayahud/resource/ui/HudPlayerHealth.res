@@ -212,7 +212,22 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
-	}		
+	}
+	"PlayerStatusHookBleedImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHookBleedImage"
+		"xpos"			"0"
+		"ypos"			"354"       //180
+		"zpos"			"7"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"		
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/bleed_drop_grapple"
+		"fgcolor"		"TanDark"
+	}
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -226,6 +241,21 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
+		"fgcolor"		"TanDark"
+	}
+	"PlayerStatusGasImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusGasImage"
+		"xpos"			"0"
+		"ypos"			"354"       //180
+		"zpos"			"7"
+		"wide"			"16"
+		"tall"			"16"
+		"visible"		"1"		//1
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/covered_in_gas"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMarkedForDeathImage"
@@ -701,5 +731,20 @@
         "image"         "../Effects/powerup_supernova_hud"
         "fgcolor"       "TanDark"
     }
+	"PlayerStatusSlowed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusSlowed"
+		 "xpos"          "85"
+        "ypos"          "347"
+        "zpos"          "7"
+        "wide"          "30"
+        "tall"          "30"
+        "visible"       "1"
+        "enabled"       "1"
+        "scaleImage"    "1"
+		"image"			"../vgui/slowed"
+		"fgcolor"		"TanDark"
+	}
 }
 
